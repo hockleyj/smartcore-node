@@ -1,7 +1,7 @@
 {
-  "network": "testnet",
-  "port": 3001,
-  "datadir": "/tmp",
+  "network": "mainnet",
+  "port": 9678,
+  "datadir": "~/.smartcore",
   "services": [
     "p2p",
     "db",
@@ -23,11 +23,11 @@
     },
     "fee": {
       "rpc": {
-        "user": "local",
-        "pass": "local",
+        "user": "rpc-username",
+        "pass": "rpc-password",
         "host": "localhost",
         "protocol": "http",
-        "port": 18332
+        "port": 9679
       }
     }
   }
